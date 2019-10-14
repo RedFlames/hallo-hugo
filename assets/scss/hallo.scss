@@ -1,7 +1,13 @@
 // Colours
 $color-background: {{ .Site.Params.colors.background | default "#6fcdbd" }};
 $color-foreground: {{ .Site.Params.colors.foreground | default "#fff" }};
+$color-text: {{ .Site.Params.colors.text | default "#fff" }};
 $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
+
+$h1-size: {{ .Site.Params.sizes.h1 | default "9rem" }};
+$h2-size: {{ .Site.Params.sizes.h2 | default "3rem" }};
+$link-size: {{ .Site.Params.sizes.links | default "1.5rem" }};
+$portrait-size: {{ .Site.Params.sizes.portrait | default "300px" }};
 
 @import 'hallo/variables';
 @import 'hallo/base';
