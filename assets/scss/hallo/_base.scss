@@ -1,8 +1,8 @@
 html,
 body {
     color: $color-foreground;
-    margin: 1rem;
     padding: 0;
+    margin: 0px;
 }
 
 html {
@@ -13,6 +13,7 @@ html {
 
 body {
     background-color: $color-background;
+    border-top: 3px solid #ff57ab;
 }
 
 a {
